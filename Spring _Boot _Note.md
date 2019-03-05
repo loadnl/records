@@ -2,4 +2,6 @@
 
 @RestController表示不渲染视图 直接输出结果  
 @GetMapping 是@RequestMapping(method = RequestMethod.GET)的缩写  
+@RequestParam(required=false,defaultValue="")String name 表示http请求?name=??  
+
 
